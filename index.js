@@ -19,6 +19,10 @@ const pool = new Pool({
 
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.send('Hello from Node.js!');
+});
+
 // API: Lấy danh sách bệnh nhân
 app.get('/patients', async (req, res) => {
   try {
@@ -29,6 +33,7 @@ app.get('/patients', async (req, res) => {
     res.status(500).send('Lỗi server');
   }
 });
+
 
 // API: Thêm bệnh nhân mới
 app.post('/patients', async (req, res) => {
