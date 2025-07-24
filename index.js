@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
 
-// Kết nối PostgreSQL1ywqqqqaaa  
+// Kết nối PostgreSQL1ywqqqqaaaqq  
 const pool = new Pool({
   host: 'nodejs123stack-dev-clinicpostgres9724a339-ftcsga1pa623.cgv8eygaaeib.us-east-1.rds.amazonaws.com',
   user: 'clinic_admin',
