@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const port = 3000;
-Congratulations
 
 // Kết nối PostgreSQL1yw
 const pool = new Pool({
